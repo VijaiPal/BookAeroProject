@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol{ margin:0; padding: 0; list-style: none; }
+
+/* #Navigation
+================================================== */
+.start-header{ background-color: #fff; }
+.navbar-brand{}
+.navbar-brand img{ max-height: 50px; }
+.navbar-nav li{ margin: 0px 4px; }
+.navbar-nav li a{ display: block; padding: 5px 30px; border-radius: 5px; min-width: 100px; text-align: center; border:1px solid #e1e1e1; }
+
+
+/*banner section*/
+.container{ max-width: 1250px; }
+.ptb-100{ padding: 100px 0px;  }
+.ptb-50{ padding: 50px 0px; }
+.pt-50{ padding-top: 50px}
+.pb-50{ padding-bottom: 50px}
+.banersection{ width: 100%; float: left; display: block; }
+
+.formsection{ width: 100%; display: block; float: left; padding: 30px; border-radius: 15px; background:#211d7085; }
+
+#myTab .nav-link{color: #fff; }
+#myTab .nav-link.active{ color:#fff; background-color: #ed1c24;}
+.multicity{ width: 100%; display: block; float: left; }
+.cityrow{ float: left; width: 100%; text-align: left; margin-bottom: 15px; }
+.citycol{ float: left; color: #fff; position: relative; }
+.cityrow div:nth-child(1){ width: 35%; margin-right: 2%; }
+.cityrow div:nth-child(2){ width: 35%; margin-right: 2%;}
+.cityrow div:nth-child(3){ width: 26%; }
+.citycol .inbf{ position: relative; }
+.citycol .inbf:before{ position: absolute; content: "\f041"; font-family: FontAwesome; font-size: 18px;  left:8px; top: 10px; color: #211d70; z-index: 2;  }
+.citycol .inaf:after{position: absolute; content: "\f0ec"; font-family: FontAwesome; right: -10px; top: 3px; width: 36px; height: 36px; border-radius: 50%; color: #fff; background-color: #ed1c24; border: 3px solid #211d70; line-height: 30px; text-align: center; }
+.citycol .inaf:before{ left: 16px; }
+.citycol .inbf input{ padding: 8px 15px; }
+.citycol .inbf input[type="text"]{ padding-left:30px; }
+
+.addrow{ width: 100%; display: block; float: left; margin-bottom: 15px; }
+.addrow button{ position: relative; display: inline-block; vertical-align: middle; border: 1px solid #ed1c24;  background-color: transparent; color: #fff; padding: 8px 15px 8px 50px; border-radius: 30px 5px 5px 30px; height: 42px; }
+.addrow button:before{ content: "\f067"; position: absolute; font-family: FontAwesome; left: 0; top: -1px; height: 42px; width: 42px; text-align: center; line-height: 42px; color: #fff; background-color: #ed1c24; border-radius: 50%; }
+.addrow label{ color: #fff; display: inline-block; margin-left: 15px; vertical-align: middle; }
+
+.thirdrow{ width:100%; float: left; margin-bottom: 15px; }
+.thirdrow div{ display: inline-block; vertical-align:  middle; margin-right: 15px; color: #fff; min-width: 120px;}
+.thirdrow div:nth-child(1){}
+.thirdrow div:nth-child(3){}
+.thirdrow div:nth-child(3){}
+.thirdrow div:nth-child(4){}
+.thirdrow div:nth-child(5){ margin-right: 0px; padding-top: 5px;}
+.thirdrow div input[type="checkbox"]{ width: 20px; height: 20px; display: inline-block; vertical-align: middle; }
+.thirdrow div:nth-cild(5) label{ color: #fff; vertical-align: middle; display: inline-block; }
+
+.searchbtnrow{ width: 100%; float: left; text-align: center; }
+.searchbtnrow button{color: #fff; background-color: #ed1c24; padding: 10px 15px; display: block; width: 100%; text-transform: uppercase; border: 0px; cursor: pointer;   }
+.searchbtnrow button:hover{background-color: #211d70;}
+
+
+.slider1 li a{ display: block; }
+.slider1 .offimg{ width: 100%; max-width: 386px; overflow: hidden;border: 2px solid #fff; border-radius: 15px; }
+.offimg img{ width: 100%; }
+.owl-dots{ width: 100%; text-align: center; display: inline-block; }
+.owl-dots .owl-dot span{ width: 10px; height: 6px; border-radius: 15px; background-color: #fff; display: inline-block; margin:0px 2px; }
+.owl-dots .owl-dot.active span{ width: 15px; background-color:#ed1c24;  }
+
+
+.hoteloffer{ float: left; width: 100%; }
+.h2{ font-weight: 600; margin-bottom: 40px; color: #211d70; }
+.hotelslide{  width: 100%; text-align: center; position: relative; display: block; }
+.hotelslide li{ display: inline-block; padding: 0px 8px;  }
+.hotbox{ border-radius: 15px; background-color: #fff; width: 100%; overflow: hidden;}
+.hotimg{ overflow: hidden; position: relative;  }
+.bokdiscount{position: absolute; background-color:#211d70; color: #fff; padding: 5px 10px; left: 10px; top: 15px; display: inline-block; border-radius: 3px; }
+.bokicon{ position: absolute; left: 10px; bottom: 10px; width: 40px; height: 40px; border-radius: 50%; background-color: #fff; color:#211d70; text-align: center; line-height: 40px; box-shadow: 0px 0px 5px #ed1c24;  }
+.hottxt{ width: 100%; display: block; float: left; text-align: left; background-color: #f5f5f5; padding: 15px; }
+.hottitle{ color: #211d70; font-weight: 600; }
+.hottxt p{ float: left; width: 100%; color: #444; }
+.hottxt p span{ text-transform: uppercase; color:#211d70; font-weight: 600;  }
+.hotdetail{ width: 100%; display: block; float: left; }
+.hotdetail span{ font-style: italic; color: #777; float: left; }
+.hotdetail a{ display: inline-block; float: right;  color:#211d70;   }
+
+.moreoffer{ color:#211d70; margin-top: 30px; border:1px solid #e1e1e1; border-radius: 3px; padding: 8px 15px; display: inline-block; font-size: 18px; font-weight: 600; }
+
+.owl-nav .owl-prev, .owl-nav .owl-next { position: absolute; top: 45%; outline: none; }
+.owl-nav .owl-prev i, .owl-nav .owl-next i{ width: 50px; height: 50px; box-shadow: 0px 0px 5px #211d70; line-height: 50px; text-align: center; display: block; border-radius: 50%; background-color: #fff; color: #211d70; font-size: 24px; }
+.owl-nav .owl-prev{ left: 0; }
+.owl-nav .owl-next{ right: 0; }
+
+
+.subscribe{ float: left; background:#211d70 url(../images/subscribe.jpg) no-repeat center center; }
+.subscribetxt{ width: 100%; display: block; float: left; }
+.subscribetxt h3{ color: #fff; font-weight: 600;  }
+.subscribetxt p{ color: #fff; }
+
+.subscibeform{ float: left; width: 100%; }
+.subscibeform input{ width: 600px; height: 50px; line-height: 50px; padding: 0px 15px; float: left; border-radius: 5px 0px 0px 5px;}
+.subscibeform button{ display: inline-block; height: 50px; padding: 0px 30px; float: left; line-height: 50px; text-transform: uppercase; border-radius:0px 5px 5px 0px; border:0px; background-color:#ed1c24; color: #fff;  }
+
+/*why book aero*/
+.bookaero{ float: left; display: block; }
+.bookrow{ width: 100%; float: left; display: block; position: relative; }
+.bookrow ul{ float: left; display: block; width: 100%; text-align: center; position: relative;}
+.bookrow ul:before{ content: ""; position: absolute; left: 0; top: 50%; margin-top: -2px; width: 100%; height: 4px; background-color: #d1d1d1; }
+.bookrow ul li{ position: relative; float: left; width: 250px; text-align: center; }
+.bokiconbox{ display: inline-block; width: 120px; height: 120px; border:10px solid #d1d1d1; text-align:center; border-radius: 50%; line-height: 100px; margin: 40px 0px;}
+.bokiconbox i{ font-size: 32px; color:#211d70;  }
+
+.bokicontxt{ width: 100%; text-align: center; display: block; margin: 40px 0px; }
+.bokicontxt h5{ color: #211d70; font-weight: 600; }
+.bokicontxt p{ color: #444; }
+
+.bookrow ul li:before{ content: ""; width: 4px; height: 38px; background-color: #d1d1d1; left: 50%; top: 50%; position: absolute; display: inline-block; }
+.bookrow ul li:after{ content: ""; width: 16px; height: 16px; border-radius: 50%; border: 4px solid #d1d1d1; left: 48%; top: 60%; position: absolute; display: inline-block; }
+.bookrow ul li:nth-child(2):before{top: 40%;}
+.bookrow ul li:nth-child(2):after{top: 36%;}
+.bookrow ul li:nth-child(4):before{top: 40%;}
+.bookrow ul li:nth-child(4):after{top: 36%;}
+
+/*footer area*/
+.footerbg{ float: left; display: block; background: #211d70 url(../images/globe.png) no-repeat center bottom; }
+.footrow{ width: 100%; float: left; }
+.footrow h2, p{ color: #fff; margin-bottom: 15px; }
+.footrow h2 a, p a{ color: #0669fd; }
+
+.midfootrow{ width: 100%; float: left; }
+.midfootrow h2{ width: 100%; float: left; color: #fff; padding-bottom: 15px; margin-bottom: 20px; border-bottom: 1px solid #fff;  }
+.midlink{ width: 20%; float: left; }
+.midlink ul{ width: 100%; float: left; text-align: left; }
+.midlink ul li { width: 100%; float: left; }
+.midlink ul li a{ color: #fff; padding: 6px 15px 6px 0px; display: block; }
+
+.cardrow{ width: 100%; float: left; margin: 25px 0px; padding: 25px 0px; text-align: left; border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+.cardcol{ color: #fff; display: inline-block; vertical-align: middle; }
+.cardrow div{ width: 33%; float: left; }
+.cardrow div:nth-child(1){ text-align: left; padding-top: 12px; }
+.cardrow div:nth-child(2){ text-align: center; }
+.cardrow div:nth-child(3){ text-align: right; padding-top: 12px; }
+.cardcol span{ display: inline-block; margin-right: 15px; vertical-align: middle; }
+.cardcol img{ display: inline-block; vertical-align: middle; }
+.cardrow div:nth-child(3) a{ display:inline-block; width: 30px; height: 30px; border-radius: 50%; background-color: #fff; color:#211d70; text-align: center; line-height: 30px;  }
+
+.iatrow{ float: left; text-align: center; width: 100%; padding: 30px 0px; }
+.iatrow img{ display: inline-block; }
+.iatrow ul{ float: left; width: 100%; text-align: center; margin-top: 10px; }
+.iatrow ul li{ display: inline-block; vertical-align: middle;position: relative;}
+.iatrow ul li:before{ width: 1.5px; height: 14px; background-color: #fff; position: absolute; content: ""; left: 0; top: 8px; }
+.iatrow ul li:first-child:before{ display: none; }
+.iatrow ul li a{ display: block; padding: 3px 15px; color: #fff; }
+
+.copyright{ background-color: #050155; float: left; width: 100%; text-align: center; }
+.copyright p{ color: #fff; margin-bottom: 0; padding: 14px 0px; text-align: center; }
+
